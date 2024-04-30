@@ -4,13 +4,13 @@ This repository provides a collection of template notebooks showcasing Retrieval
 
 ## **What's Included:**
 
-* **RAG OpenAI:** This notebook utilizes OpenAI's GPT for retrieving information to augment response generation.
-* **RAG Google:** This notebook leverages Google's Gemini LLM for the retrieval stage of the RAG pipeline.
-* (Add more notebooks as you implement them with different LLMs)
+* **RAG-OpenAI:** This notebook utilizes OpenAI's GPT for retrieving information to augment response generation. Get your API key from [here](https://platform.openai.com/api-keys).
+* **RAG-Google:** This notebook leverages Google's Gemini LLM for the retrieval stage of the RAG pipeline. Get your API Key from [here](https://ai.google.dev/gemini-api/docs/api-key).
+* 
 
 ## **Benefits:**
 
-* **Rapid Prototyping:** These notebooks serve as a starting point for quickly building and testing RAG applications with various LLMs.
+* **Rapid Prototyping:** These notebooks serve as a starting point for quickly building and RAG applications with various LLMs.
 * **Flexibility:** Easily swap out the LLM in each notebook to explore the capabilities of different models.
 * **Code Examples:** Learn best practices for implementing RAG with clear code examples in each notebook.
 
@@ -35,6 +35,4 @@ You can also use [Colab](https://colab.research.google.com/).
 
 ## **Contributing:**
 
-Contributions are highly appreciated so don't hesitate to submit a pull request.
-
-For any questions or issues, feel free to raise an issue on this repository.
+Contributions are highly appreciated so don't hesitate to submit a pull request. For any questions or issues, feel free to raise an issue on this repository.
