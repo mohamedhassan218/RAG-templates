@@ -2,11 +2,13 @@
 
 This repository provides a collection of template notebooks showcasing Retrieval-Augmented Generation (RAG) applications with different Large Language Models (LLMs). Each notebook demonstrates RAG implementation using a specific LLM for response retrieval.
 
-## **What's Included**
+## **What is RAG?**
 
-* **RAG-OpenAI:** this notebook utilizes OpenAI's GPT for retrieving information to augment response generation. Get your API key from [here](https://platform.openai.com/api-keys) (paid).
-* **RAG-Google:** this notebook leverages Google's Gemini LLM for the retrieval stage of the RAG pipeline. Get your API key from [here](https://ai.google.dev/gemini-api/docs/api-key) (free).
-* **RAG-Cohere:** this notebook leverages Cohere's `command-r` LLM for the retrieving stage. Get your API key from [here](https://dashboard.cohere.com/api-keys) (free).
+## **What's included in this repo?**
+
+* **RAG OpenAI:** this notebook utilizes OpenAI's GPT for retrieving information to augment response generation. Get your API key from [here](https://platform.openai.com/api-keys) (paid).
+* **RAG Google:** this notebook leverages Google's Gemini LLM for the retrieval stage of the RAG pipeline. Get your API key from [here](https://ai.google.dev/gemini-api/docs/api-key) (free).
+* **RAG Cohere:** this notebook uses Cohere's `command-r` model for the retrieving stage. Get your API key from [here](https://dashboard.cohere.com/api-keys) (free).
 * 
 
 ## **Benefits**
