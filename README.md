@@ -13,9 +13,9 @@ We use the RAG technique to overcome the problem of cut-knowledge to the LLM. It
   <p align="center">
     <img src="./data/RAG.gif" alt="Factory UML Diagram" />
   </p>
+  <p align="center">src: https://www.databytego.com/p/aiml-brief-introduction-to-retrieval</p>
 </div>
 
-Image [src](https://www.databytego.com/p/aiml-brief-introduction-to-retrieval)
 
 In this repo, I used the RAG with data from URL to keep the code as simple as possible. It simply scrape the content of the page from it's URL, embedding it, store it in vectorestore (Chromadb) and use your query with the vectorstore as a retriever to answer your question. You can modify it to be able to deal with data from file or any other source but put in your mind to change the loader with each type of data sources.
 
@@ -25,7 +25,7 @@ In this repo, I used the RAG with data from URL to keep the code as simple as po
 * **RAG Google:** this notebook leverages Google's Gemini LLM for the retrieval stage of the RAG pipeline. Get your API key from [here](https://ai.google.dev/gemini-api/docs/api-key) (free).
 * **RAG Cohere:** this notebook uses Cohere's `command-r` model for the retrieving stage. Get your API key from [here](https://dashboard.cohere.com/api-keys) (free).
 * **RAG HuggingFace:** get your API key from [here](https://huggingface.co/settings/tokens) (free).
-* **RAG NLP Cloud:** get your API key from [here](https://nlpcloud.com/home/token) (free).
+* **RAG NLP Cloud:** get your API key from [here](https://nlpcloud.com/home/token) (free but with limited requests per hour).
 * **RAG FireworksAI:** get your API key from [here](https://fireworks.ai/api-keys) (free).
 * **RAG TogetherAI:** get your API key from [here](https://api.together.xyz/settings/api-keys) (free).
 
